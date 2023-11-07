@@ -1,0 +1,22 @@
+#formd {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto ;
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    box-sizing: border-box; /* Add this property */
+}
+
+#formd label {
+    padding: 10px 0;
+}
+#formd input{
+    height: 20px;
+}
+
+main h4 {
+    text-align: center;
+}

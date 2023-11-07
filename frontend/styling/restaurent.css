@@ -1,0 +1,24 @@
+main{
+    margin: 60px auto;
+    width: 40%;
+    text-align: center;
+}
+main div {
+    background-color: bisque;
+    color: black;
+    padding: 5px 10px 10px ;
+    
+    
+}
+main div h4,h3,p{
+    text-align: left;
+    text-decoration: underline;
+}
+main div a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    text-align: end;
+
+}
