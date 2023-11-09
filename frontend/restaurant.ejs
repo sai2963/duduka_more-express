@@ -10,28 +10,32 @@
 <body>
     <aside>
         <div id="up">
-            <a href="/index"><h2 id="eat">Eatwell</h2></a>
+            <a href="/"><h2 id="eat">Eatwell</h2></a>
             <div id="upin">
-                <a href="">Browse Restaurants</a >
-                <a href="/share">Share a restaurent</a>
-                <a href="">About Eatwell</a >
+                <a href="/restaurant">Browse Restaurants</a>
+                <a href="/share">Share a restaurant</a>
+                <a href="/about">About Eatwell</a>
             </div>
         </div>
-        
     </aside>
     <main>
         <h1>Recommended Restaurants</h1>
-        <p>Find Your next favourate restaurents with the help of our other users!</p>
+        <p>Find Your next favorite restaurants with the help of our other users!</p>
         <p>We Found <%= X %> Restaurants.</p>
-        <div>
-            <h4>Restaurant Title</h4>
-            <h3>Mexicon</h3>
-            <h4>Addres of the restaurent including city</h4>
-            <p>A Small description on this restaurent</p>
-            <a href="">View website</a>
-        </div>
+        <% restaurants.forEach((restaurant, index) => { %>
+            <div key="<%= index %>">
+                
+                <h2><%= restaurant.rname %></h2>
+                
+                <p><%= restaurant.Adr %></p>
+                
+                <h3><%= restaurant.csnie %></h3>
+       
+                <a href="<%= restaurant.web %>">View website</a>
+                <h4>Why do you recommend it?</h4>
+                <p><%= restaurant.red %></p>
+            </div>
+        <% }); %>
     </main>
-    
-    
 </body>
 </html>

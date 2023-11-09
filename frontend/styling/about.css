@@ -1,0 +1,13 @@
+main {
+    margin: 60px auto;
+    width: 60%;
+    text-align: justify;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 20px;
+}

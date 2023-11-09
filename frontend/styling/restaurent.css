@@ -1,24 +1,31 @@
-main{
+main {
     margin: 60px auto;
     width: 40%;
-    text-align: center;
 }
+
 main div {
     background-color: bisque;
     color: black;
-    padding: 5px 10px 10px ;
-    
-    
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-main div h4,h3,p{
+
+main div h4, h3, p {
     text-align: left;
-    text-decoration: underline;
+   
 }
-main div a{
+
+main div a {
+    display: block;
     text-decoration: none;
     color: white;
     background-color: brown;
     padding: 5px;
-    text-align: end;
-
+   
+    border-radius: 5px;
+    margin-top: 10px;
+    width: fit-content;
+    margin: 10px auto;
 }
