@@ -20,3 +20,12 @@
 main h4 {
     text-align: center;
 }
+#btn1{
+    width: min-content;
+    padding:20px;
+    margin: 30px auto;
+    background-color: brown;
+    color: white;
+    
+   
+}

@@ -19,9 +19,9 @@
         </div>
     </aside>
     <main>
-        <h1>Recommended Restaurants</h1>
-        <p>Find Your next favorite restaurants with the help of our other users!</p>
-        <p>We Found <%= X %> Restaurants.</p>
+        <h1 id="con">Recommended Restaurants</h1>
+        <p id="con">Find Your next favorite restaurants with the help of our other users!</p>
+        <p id="con">We Found <%= X %> Restaurants.</p>
         <% restaurants.forEach((restaurant, index) => { %>
             <div key="<%= index %>">
                 
@@ -32,7 +32,7 @@
                 <h3><%= restaurant.csnie %></h3>
        
                 <a href="<%= restaurant.web %>">View website</a>
-                <h4>Why do you recommend it?</h4>
+                <h4>Why it's recommend it?</h4>
                 <p><%= restaurant.red %></p>
             </div>
         <% }); %>

@@ -22,6 +22,9 @@ app.get('/share', (req, res) => {
 app.get('/confirm', (req, res) => {
   res.render('confirm');
 });
+app.get('/about', (req, res) => {
+  res.render('about');
+});
 
 app.post('/share', function (req, res) {
   const restaurant = req.body;
